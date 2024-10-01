@@ -7,7 +7,7 @@ pipeline {
 	    SERVICE_NAME="pipeline"
 	    TASK_DEFINITION_NAME="jen_docker_cicd"
 	    DESIRED_COUNT="1"
-        IMAGE_REPO_NAME="cicd_jenkins_docker
+        IMAGE_REPO_NAME="cicd_jenkins_docker"
 
 "
         //Do not edit the variable IMAGE_TAG. It uses the Jenkins job build ID as a tag for the new image.
